@@ -1,0 +1,11 @@
+includes:
+    - ./vendor/neuecommerce/coding-standards/larastan.neon
+
+parameters:
+    paths:
+        - src/
+
+    level: 5
+
+    parallel:
+        processTimeout: 300.0
